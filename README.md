@@ -25,6 +25,6 @@ Cette application permet de tester les ports série et les connexions réseau. V
   - `tkinter`
 
 Exécution du script
-Pour exécuter le script, lancez simplement le fichier setup.exe :
+Pour exécuter le script, lancez simplement le fichier setup.exe.
 
 
