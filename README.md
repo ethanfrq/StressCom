@@ -15,16 +15,14 @@ Cette application permet de tester les ports série et les connexions réseau. V
 
 ### Prérequis
 
-- Python 3.x
-- Les modules suivants doivent être installés :
-  - `pyserial`
-  - `socket`
-  - `platform`
-  - `os`
-  - `colorama`
-  - `tkinter`
+- [Python](https://www.python.org/ftp/python/3.12.4/python-3.12.4-amd64.exe)
+- Les modules suivants doivent être installés sont dans le fichier requirements.txt est sont installer quand le fichier pip.bat est execute 
 
 Exécution du script
 Pour exécuter le script, lancez simplement le fichier setup.exe.
+
+## Droits 
+
+Tout les droit sont reserver a l'entreprise Degreane Citeos La Garde 
 
 
