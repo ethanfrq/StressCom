@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StressCom | Citeos Degreane</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/course-inner.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/blog.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("2fyIKjVPVDSUKbuJp"); 
+        })();
+    </script>
+</head>
+<body>
+    <nav>
+        <img src="img/logo.png" class="logo" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html" class="active">Acceuil</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home">
+        <h2>StressCom</h2>
+        <p>Nouvelle version prête à être utilisée</p>
+        <div class="btn">
+            <a href="https://github.com/ethanfrq/StressCom/archive/refs/heads/main.zip" class="blue">DownLoad</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <h1>StressCom</h1>
+        <p>L'utilité et les caractéristiques du logiciel</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Un design intuitif</h3>
+            </div>
+            <div class="fea-box">
+                <i class="fa-solid fa-microchip"></i>
+                <h3>Une détection optimale</h3>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-award"></i>
+                <h3>Logiciel performant</h3>
+            </div>
+        </div>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fa-solid fa-code-compare"></i>
+                <h3>Mise à jour constante</h3>
+            </div>
+            <div class="fea-box">
+                <i class="fa-solid fa-bug"></i>
+                <h3>Un code sécurisé</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="experts">
+        <h1>Citeos Degreane - La Garde</h1>
+        <p>Hiérarchie de mon stage</p>
+        <div class="expert-box">
+            <div class="profile">
+                <img src="img/pro1.webp" alt="">
+                <h6>Clement Parrot</h6>
+                <p>Technicien</p>
+            </div>
+            <div class="profile">
+                <img src="img/pro2.webp" alt="">
+                <h6>Edouard Mandin</h6>
+                <p>Chef D'entreprise</p>
+            </div>
+            <div class="profile">
+                <img src="img/pro3.webp" alt="">
+                <h6>Remi Sanchez</h6>
+                <p>Responsable d'affaires</p>
+            </div>
+        </div>
+		<div class="expert-box">
+            <div class="profile">
+                <img src="img/pro1.webp" alt="">
+                <h6>Ethan Franqueville</h6>
+                <p>Stagiaire BTS</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog-container">
+        <div class="blogs">
+            <div class="post">
+                <img src="img/c1.jpg" alt="">
+                <h3>StressCom Dernière version</h3>
+                <p>
+                    Cette application crée une interface graphique (GUI) pour divers outils de diagnostic et de test pour la machine et les ports série. Il utilise plusieurs bibliothèques Python pour réaliser différentes fonctions.
+                </p>
+                <a href="https://github.com/ethanfrq/StressCom/archive/refs/heads/main.zip">DownLoad v1.2</a>
+            </div>
+        </div>
+        <div class="cate">
+            <h2>Requériments</h2>
+            <hr>
+            <a href="https://www.python.org/ftp/python/3.12.4/python-3.12.4-amd64.exe">Python 3.12.4</a>
+            <hr>
+            <a>Windows machine</a>
+            <hr>
+        </div>
+    </section>
+
+    <section id="about-home">
+        <h2>Contact</h2>
+    </section>
+
+    <section id="contact">
+        <div class="getin">
+            <h2>Support Bug,</h2>
+            <h2>Demande, Autres</h2>
+            <p>Vous cherchez de l'aide ? Remplissez le formulaire. Nous vous allons vous répondre.</p>
+            <div class="getin-details">
+                <h3>Localisation</h3>
+                <div>
+                    <i class="fa-solid fa-map get"></i>
+                    <p>75 Rue Auguste Perret, 83954 La Garde Cedex</p>
+                </div>
+                <h3>Support</h3>
+                <div>
+                    <i class="fa-solid fa-envelope get"></i>
+                    <p>franquevilleethan@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form">
+            <h4>Support Message</h4>
+            <p>Tout comportement ou propos de place pour amener à une sanction.</p>
+            <form id="contact-form">
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Votre Nom/Prenom" required>
+                    <input type="email" name="email" placeholder="Votre Email" required>
+                </div>
+                <div class="form-col">
+                    <input type="text" name="subject" placeholder="Objet de la demande..." required>
+                </div>
+                <div class="form-col">
+                    <textarea name="message" id="" cols="30" rows="8" placeholder="Comment pouvons-nous vous aider?" required></textarea>
+                </div>
+                <div class="form-col">
+                    <button type="submit">Envoyer votre message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Liste des application/code</h3>
+            <li>Visual Studio code</li>
+            <li>Python</li>
+            <li>HTML 5</li>
+            <li>CSS</li>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright @ 2024 All rights reserved | This web is made by <a href="https://www.degreane.fr/" target="_blank">Degreane</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+
+        function sendEmail(event) {
+            event.preventDefault();
+
+            emailjs.sendForm('service_nhw9yoe', 'template_03c6vau', '#contact-form')
+                .then(function(response) {
+                    alert('Votre message a été envoyé avec succès !');
+                }, function(error) {
+                    alert('Échec de l\'envoi du message. Veuillez réessayer.');
+                });
+        }
+
+        $(document).ready(function(){
+            $('#contact-form').on('submit', sendEmail);
+        });
+    </script>
+</body>
+</html>
